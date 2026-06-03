@@ -94,6 +94,7 @@ class FridayExtractor:
         )
 
         raw_text = response.text.strip()
+        print(raw_text)
         logger.debug("Gemini raw response: %s", raw_text[:500])
 
         try:
